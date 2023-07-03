@@ -1,5 +1,24 @@
+# Solution:
 
-# Moneybox iOS Technical Challenge
+My solution involves:
+- Creating a custom UInavigation with the LoginViewController as the root 
+to be directed to with errors including session expiry
+
+- I used to the login method from data provider API and assigned the 
+sucess to the navigation  to the accounts view
+
+- I utilised the UITableView protocols and create a custom cell view for 
+the UI of the accounts held and in turn used this for individual product 
+selection
+
+- Passing the index row as the position in the accounts held array to 
+handle inidividual products in the product view
+
+- I utilised the addmoney method to make an api reqest to add a set amount 
+to the moneybox total for the selected product and the UI responds by 
+returning to the parent view. 
+
+ # Moneybox iOS Technical Challenge
 
 ## The Brief
 
